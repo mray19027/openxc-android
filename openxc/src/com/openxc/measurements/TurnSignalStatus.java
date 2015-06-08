@@ -1,12 +1,12 @@
 package com.openxc.measurements;
 
-import java.util.Locale;
-
 import com.openxc.units.State;
+
+import java.util.Locale;
 
 public class TurnSignalStatus extends
         BaseMeasurement<State<TurnSignalStatus.TurnSignalPosition>> {
-    public final static String ID = "turn_signal_status";
+    public final static String ID = "TurnIndLvr_Stat";
 
     public enum TurnSignalPosition {
         OFF,

@@ -11,8 +11,8 @@ import com.openxc.util.Range;
  */
 public class SteeringWheelAngle extends BaseMeasurement<Degree> {
     private final static Range<Degree> RANGE =
-        new Range<Degree>(new Degree(-600), new Degree(600));
-    public final static String ID = "steering_wheel_angle";
+        new Range<Degree>(new Degree(-2048), new Degree(2048));
+    public final static String ID = "LRW";
 
     public SteeringWheelAngle(Number value) {
         super(new Degree(value), RANGE);

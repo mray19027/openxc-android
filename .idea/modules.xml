@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/enabler/enabler.iml" filepath="$PROJECT_DIR$/enabler/enabler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mhacks6demo/mhacks6demo.iml" filepath="$PROJECT_DIR$/mhacks6demo/mhacks6demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openxc/openxc.iml" filepath="$PROJECT_DIR$/openxc/openxc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openxc-android.iml" filepath="$PROJECT_DIR$/openxc-android.iml" />
+    </modules>
+  </component>
+</project>

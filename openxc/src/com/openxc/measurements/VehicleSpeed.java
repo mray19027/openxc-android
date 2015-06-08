@@ -9,8 +9,8 @@ import com.openxc.util.Range;
 public class VehicleSpeed extends BaseMeasurement<KilometersPerHour> {
     private final static Range<KilometersPerHour> RANGE =
         new Range<KilometersPerHour>(new KilometersPerHour(0.0),
-                new KilometersPerHour(655.0));
-    public final static String ID = "vehicle_speed";
+                new KilometersPerHour(511.98));
+    public final static String ID = "VEH_SPEED";
 
     public VehicleSpeed(KilometersPerHour value) {
         super(value, RANGE);

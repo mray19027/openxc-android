@@ -1,19 +1,31 @@
 package com.openxc.measurements;
 
-import com.openxc.units.Boolean;
+import com.openxc.units.State;
+
+import java.util.Locale;
 
 /**
  * The BrakePedalStatus measurement knows if the brake pedal is pressed.
  */
-public class BrakePedalStatus extends BaseMeasurement<Boolean> {
-    public final static String ID = "brake_pedal_status";
+public class BrakePedalStatus extends BaseMeasurement<State<BrakePedalStatus.BrakePedalState>> {
+    public final static String ID = "Brk_Stat";
 
-    public BrakePedalStatus(Boolean value) {
+    public enum BrakePedalState {
+        NOT_PSD,
+        PSD,
+        SNA
+    }
+
+    public BrakePedalStatus(State<BrakePedalState> value) {
         super(value);
     }
 
-    public BrakePedalStatus(java.lang.Boolean value) {
-        this(new Boolean(value));
+    public BrakePedalStatus(BrakePedalState value) {
+        this(new State<BrakePedalState>(value));
+    }
+
+    public BrakePedalStatus(String value) {
+        this(BrakePedalState.valueOf(value.toUpperCase(Locale.US)));
     }
 
     @Override

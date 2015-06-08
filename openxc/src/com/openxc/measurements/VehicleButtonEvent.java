@@ -1,8 +1,8 @@
 package com.openxc.measurements;
 
-import java.util.Locale;
-
 import com.openxc.units.State;
+
+import java.util.Locale;
 
 /**
  * A ButtonEvent represents a button press, release or hold on the vehicle HMI.

@@ -1,8 +1,8 @@
 package com.openxc.measurements;
 
-import java.util.Locale;
-
 import com.openxc.units.State;
+
+import java.util.Locale;
 
 /**
  * The TransmissionGearPosition is the actual current gear of the transmission.
@@ -12,18 +12,20 @@ import com.openxc.units.State;
  */
 public class TransmissionGearPosition
         extends BaseMeasurement<State<TransmissionGearPosition.GearPosition>> {
-    public final static String ID = "transmission_gear_position";
+    public final static String ID = "PRNDL_DISP";
 
     public enum GearPosition {
-        FIRST,
-        SECOND,
-        THIRD,
-        FOURTH,
-        FIFTH,
-        SIXTH,
-        SEVENTH,
-        EIGHTH,
+        ONE,
+        TWO,
+        THREE,
+        FOUR,
+        FIVE,
+        SIX,
+        SEVEN,
+        EIGHT,
+        NINE,
         NEUTRAL,
+        PARK,
         REVERSE
     }
 

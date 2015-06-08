@@ -9,7 +9,7 @@ import com.openxc.util.Range;
 public class Odometer extends BaseMeasurement<Kilometer> {
     private final static Range<Kilometer> RANGE =
         new Range<Kilometer>(new Kilometer(0), new Kilometer(16777214.0));
-    public final static String ID = "odometer";
+    public final static String ID = "ODO";
 
     public Odometer(Number value) {
         super(new Kilometer(value), RANGE);

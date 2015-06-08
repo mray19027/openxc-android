@@ -6,7 +6,7 @@ import com.openxc.units.Boolean;
  * The HighBeamStatus measurement knows if the high beams are on.
  */
 public class HighBeamStatus extends BaseMeasurement<Boolean> {
-    public final static String ID = "high_beam_status";
+    public final static String ID = "HIBEAM_ON";
 
     public HighBeamStatus(Boolean value) {
         super(value);
