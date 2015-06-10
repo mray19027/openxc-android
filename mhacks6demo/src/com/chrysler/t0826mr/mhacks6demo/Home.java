@@ -8,18 +8,19 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.openxc.VehicleManager;
 
 public class Home extends Activity {
-    private com.chrysler.t0826mr.mhacks6demo.VehicleConnection vehicleConnection;
+    private VehicleConnection vehicleConnection;
+    private UserInterface ui;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        vehicleConnection = new com.chrysler.t0826mr.mhacks6demo.VehicleConnection();
+        vehicleConnection = new VehicleConnection();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        ui = new UserInterface(this);
     }
 
     @Override
@@ -67,24 +68,23 @@ public class Home extends Activity {
     Runnable mHandlerTask = new Runnable() {
         @Override
         public void run() {
-            Listen task = new Listen();
+            CarListener task = new CarListener();
             task.execute();
             mHandler.postDelayed(mHandlerTask, INTERVAL);
         }
     };
 
-    private class Listen extends AsyncTask<Void, Void, com.chrysler.t0826mr.mhacks6demo.CarDataPacket> {
+    private class CarListener extends AsyncTask<Void, Void, CarDataPacket> {
         @Override
-        protected com.chrysler.t0826mr.mhacks6demo.CarDataPacket doInBackground(Void...params) {
+        protected CarDataPacket doInBackground(Void...params) {
             return vehicleConnection.getAllData();
         }
 
         @Override
-        protected void onPostExecute(com.chrysler.t0826mr.mhacks6demo.CarDataPacket cdp) {
-            TextView screenX = (TextView)findViewById(R.id.screenX);
-            screenX.setText("ScreenX: " + cdp.getScreenX());
-            TextView screenY = (TextView)findViewById(R.id.screenY);
-            screenY.setText("ScreenY: " + cdp.getScreenY());
+        protected void onPostExecute(CarDataPacket cdp) {
+            //TODO utilize information from the Car data packet
+            ui.updateCarDataPacket(cdp);
+            ui.refreshScreen();
         }
     }
 }

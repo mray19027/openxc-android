@@ -52,17 +52,26 @@ public abstract class BaseMeasurement<TheUnit extends Unit>
         sMeasurementIdToClass = HashBiMap.create();
         try {
             cacheMeasurementId(AcceleratorPedalPosition.class);
+            cacheMeasurementId(AmbientTemp.class);
+            cacheMeasurementId(BatteryVoltage.class);
             cacheMeasurementId(BrakePedalStatus.class);
+            cacheMeasurementId(EngineCoolTemp.class);
+            cacheMeasurementId(EngineOilTemp.class);
             cacheMeasurementId(EngineSpeed.class);
             cacheMeasurementId(FuelConsumed.class);
             cacheMeasurementId(FuelLevel.class);
             cacheMeasurementId(HeadlampStatus.class);
             cacheMeasurementId(HighBeamStatus.class);
             cacheMeasurementId(IgnitionStatus.class);
+            cacheMeasurementId(IntakeAirTemp.class);
             cacheMeasurementId(Latitude.class);
             cacheMeasurementId(Longitude.class);
             cacheMeasurementId(Odometer.class);
+            cacheMeasurementId(OilPressure.class);
+            cacheMeasurementId(PaddleShifterStatus.class);
             cacheMeasurementId(ParkingBrakeStatus.class);
+            cacheMeasurementId(ScreenPressX.class);
+            cacheMeasurementId(ScreenPressY.class);
             cacheMeasurementId(SteeringWheelAngle.class);
             cacheMeasurementId(TorqueAtTransmission.class);
             cacheMeasurementId(TransmissionGearPosition.class);
