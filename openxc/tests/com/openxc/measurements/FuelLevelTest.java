@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.cluster.FuelLevel;
 import com.openxc.units.Percentage;
 
 public class FuelLevelTest {

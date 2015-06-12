@@ -12,7 +12,7 @@ import com.openxc.measurements.Latitude;
 import com.openxc.measurements.Longitude;
 import com.openxc.measurements.Measurement;
 import com.openxc.measurements.UnrecognizedMeasurementTypeException;
-import com.openxc.measurements.VehicleSpeed;
+import com.openxc.measurements.cluster.VehicleSpeed;
 
 /**
  * Propagate GPS and vehicle speed updates from OpenXC to the normal Android

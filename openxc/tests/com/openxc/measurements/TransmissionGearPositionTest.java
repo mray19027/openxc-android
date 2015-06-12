@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.transmission.TransmissionGearPosition;
 import com.openxc.units.State;
 
 public class TransmissionGearPositionTest {

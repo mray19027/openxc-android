@@ -1,5 +1,7 @@
 package com.openxc.measurements;
 
+import com.openxc.measurements.user_control.ParkingBrakeStatus;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

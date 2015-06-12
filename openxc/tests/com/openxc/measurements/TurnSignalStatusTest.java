@@ -1,5 +1,7 @@
 package com.openxc.measurements;
 
+import com.openxc.measurements.cluster.TurnSignalStatus;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;

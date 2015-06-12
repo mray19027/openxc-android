@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.user_control.AcceleratorPedalPosition;
 import com.openxc.units.Percentage;
 
 public class AcceleratorPedalPositionTest {

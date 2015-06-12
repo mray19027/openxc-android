@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\libs\support-v4-19.1.0.jar"
+        jar="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\build\intermediates\exploded-aar\openxc-android\openxc\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\build\intermediates\pre-dexed\debug\support-v4-19.1.0-5532ba4ece479abe3e9ae284065060472b2bf9aa.jar" />
+        sha1="7cf61999cbbc7acc96067ba1f6e80d73ab56a659">
+        <dex dex="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\build\intermediates\pre-dexed\debug\classes-fd3fcb7900a438c3f0869b920088c1d70260629c.jar" />
     </item>
 
 </items>

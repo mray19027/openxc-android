@@ -19,10 +19,9 @@ import com.openxc.messages.VehicleMessage;
 import com.openxc.messages.KeyedMessage;
 import com.openxc.messages.ExactKeyMatcher;
 import com.openxc.measurements.UnrecognizedMeasurementTypeException;
-import com.openxc.measurements.VehicleSpeed;
-import com.openxc.measurements.SteeringWheelAngle;
+import com.openxc.measurements.cluster.VehicleSpeed;
+import com.openxc.measurements.user_control.SteeringWheelAngle;
 import com.openxc.measurements.Measurement;
-import com.openxc.measurements.BaseMeasurement;
 
 @Config(emulateSdk = 18, manifest = Config.NONE)
 @RunWith(RobolectricTestRunner.class)

@@ -6,7 +6,7 @@ package com.openxc.units;
  * This is commonly used with regard to screen location(i.e. x/y coord).
  */
 public class Coordinate extends Quantity<Number> {
-    private final String TYPE_STRING = "Coordinate";
+    private final String TYPE_STRING = "pixels";
 
     public Coordinate(Number value) {
         super(value);

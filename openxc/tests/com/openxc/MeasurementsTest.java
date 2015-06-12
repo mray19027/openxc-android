@@ -8,6 +8,21 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
 import com.openxc.measurements.*;
+import com.openxc.measurements.engine.EngineSpeed;
+import com.openxc.measurements.transmission.TorqueAtTransmission;
+import com.openxc.measurements.transmission.TransmissionGearPosition;
+import com.openxc.measurements.cluster.FuelConsumed;
+import com.openxc.measurements.cluster.FuelLevel;
+import com.openxc.measurements.cluster.Odometer;
+import com.openxc.measurements.cluster.TurnSignalStatus;
+import com.openxc.measurements.cluster.VehicleSpeed;
+import com.openxc.measurements.user_control.AcceleratorPedalPosition;
+import com.openxc.measurements.user_control.BrakePedalStatus;
+import com.openxc.measurements.lighting.HeadlampStatus;
+import com.openxc.measurements.lighting.HighBeamStatus;
+import com.openxc.measurements.user_control.IgnitionStatus;
+import com.openxc.measurements.user_control.ParkingBrakeStatus;
+import com.openxc.measurements.user_control.SteeringWheelAngle;
 import com.openxc.messages.SimpleVehicleMessage;
 
 @Config(emulateSdk = 18, manifest = Config.NONE)

@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.cluster.FuelConsumed;
 import com.openxc.units.Liter;
 
 public class FuelConsumedTest {

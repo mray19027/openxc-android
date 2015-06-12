@@ -5,6 +5,7 @@ import static org.hamcrest.Matchers.equalTo;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.engine.EngineSpeed;
 import com.openxc.units.RotationsPerMinute;
 
 public class EngineSpeedTest {

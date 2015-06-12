@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.user_control.SteeringWheelAngle;
 import com.openxc.units.Degree;
 
 public class SteeringWheelAngleTest {

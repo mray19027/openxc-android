@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.cluster.Odometer;
 import com.openxc.units.Kilometer;
 
 public class OdometerTest {

@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.openxc.measurements.transmission.TorqueAtTransmission;
 import com.openxc.units.NewtonMeter;
 
 public class TorqueAtTransmissionTest {
