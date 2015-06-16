@@ -14,142 +14,381 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a326cc54-f4c0-431c-8619-11bb7c9cc5a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/GearPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFLPressure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFLStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFRPressure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFRStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRLPressure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRLStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRRPressure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRRStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/TireStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/TurnSignalPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\dex\debug\classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\bugsnag-android-3.2.2-aea356065c2e21d4fb0fe257280dead6f447b646.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\classes-bf96705544bc5e073c7f10fb1433996367335660.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\commons-io-2.4-469d777b487ef3bc723d6bae8a9bf519c8e76e60.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\gson-2.3-861d9202e1320cc81a37eafd25b1a287bf63bb39.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\guava-18.0-3871e7bedf8d2e0ec19839d95135dc8ecc198c6d.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\junit-4.12-beta-2-6dcd7188afb6b9523e9bc201adc294011c15a839.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\protobuf-java-2.6.1-1c829467490101685741a1a617b7291e4aa8ddc3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\intermediates\pre-dexed\debug\support-v4-19.1.0-23dadc0a820f3b7800a64273f968d8a815e36343.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\outputs\apk\enabler-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\enabler\build\outputs\apk\enabler-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\src\com\chrysler\t0826mr\mhacks6demo\CarDataPacket.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\src\com\chrysler\t0826mr\mhacks6demo\UserInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\src\com\chrysler\t0826mr\mhacks6demo\VehicleConnection.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\EngineSpeed.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\FuelConsumed.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\FuelLevel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\Odometer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\TorqueAtTransmission.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\TransmissionGearPosition$GearPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\TransmissionGearPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\TurnSignalStatus$TurnSignalPosition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\TurnSignalStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\classes\debug\com\openxc\measurements\VehicleSpeed.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\build\intermediates\manifests\tmp\manifestMerger5408774645408722729.xml" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo\src\com\chrysler\t0826mr\mhacks6demo\Home.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\AcceleratorPedalPosition.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/AcceleratorPedalPosition.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\AmbientTemp.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/AmbientTemp.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\BatteryVoltage.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/BatteryVoltage.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\BrakePedalStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\EngineCoolTemp.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/engine/EngineCoolTemp.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\EngineOilTemp.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/engine/EngineOilTemp.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\EngineSpeed.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/engine/EngineSpeed.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\FuelConsumed.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/FuelConsumed.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\FuelLevel.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/FuelLevel.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\HeadlampStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HeadlampStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\HighBeamStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HighBeamStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\IgnitionStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\IntakeAirTemp.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/IntakeAirTemp.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\Odometer.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/Odometer.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\OilPressure.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/OilPressure.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\PaddleShifterStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\ParkingBrakeStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/ParkingBrakeStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\ScreenPressX.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/ScreenPressX.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\ScreenPressY.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/ScreenPressY.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\SteeringWheelAngle.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/SteeringWheelAngle.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\TorqueAtTransmission.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/transmission/TorqueAtTransmission.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\TransmissionGearPosition.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/transmission/TransmissionGearPosition.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\TurnSignalStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/TurnSignalStatus.java" />
-      <change type="MOVED" beforePath="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\openxc\src\com\openxc\measurements\VehicleSpeed.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/VehicleSpeed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/classes/debug/com/openxc/measurements/BaseMeasurement.class" afterPath="$PROJECT_DIR$/openxc/build/intermediates/classes/debug/com/openxc/measurements/BaseMeasurement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/classes/debug/com/openxc/VehicleLocationProvider.class" afterPath="$PROJECT_DIR$/openxc/build/intermediates/classes/debug/com/openxc/VehicleLocationProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-debug.aar" afterPath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-release.aar" afterPath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/enabler/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/openxc/build/intermediates/resources/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/enabler/build/intermediates/resources/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/AcceleratorPedalPositionTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/AcceleratorPedalPositionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/aapt/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mhacks6demo/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/aapt/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/BaseMeasurement.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/BaseMeasurement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/BaseMeasurementTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/BaseMeasurementTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/BrakePedalStatusTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/BrakePedalStatusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/generated/source/buildConfig/androidTest/debug/com/openxcplatform/enabler/test/BuildConfig.java" afterPath="$PROJECT_DIR$/enabler/build/generated/source/buildConfig/androidTest/debug/com/openxcplatform/enabler/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/generated/source/buildConfig/debug/com/openxcplatform/enabler/BuildConfig.java" afterPath="$PROJECT_DIR$/enabler/build/generated/source/buildConfig/debug/com/openxcplatform/enabler/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/buildConfig/androidTest/debug/com/openxcplatform/test/BuildConfig.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/buildConfig/androidTest/debug/com/openxcplatform/test/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/buildConfig/debug/com/openxcplatform/BuildConfig.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/buildConfig/debug/com/openxcplatform/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/units/Coordinate.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/units/Coordinate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/EngineSpeedTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/EngineSpeedTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/FuelConsumedTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/FuelConsumedTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/FuelLevelTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/FuelLevelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/HeadlampStatusTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/HeadlampStatusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/HighBeamStatusTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/HighBeamStatusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/MeasurementsTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/MeasurementsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/sinks/MessageListenerSinkTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/sinks/MessageListenerSinkTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/OdometerTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/OdometerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/ParkingBrakeStatusTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/ParkingBrakeStatusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/generated/source/r/debug/com/openxcplatform/R.java" afterPath="$PROJECT_DIR$/enabler/build/generated/source/r/debug/com/openxcplatform/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/r/androidTest/debug/com/openxcplatform/R.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/r/androidTest/debug/com/openxcplatform/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/SteeringWheelAngleTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/SteeringWheelAngleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TorqueAtTransmissionTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TorqueAtTransmissionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TransmissionGearPositionTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TransmissionGearPositionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TurnSignalStatusTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/TurnSignalStatusTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/VehicleLocationProvider.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/VehicleLocationProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/VehicleServiceInterface.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/VehicleServiceInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/VehicleServiceListener.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/VehicleServiceListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/VehicleSpeedTest.java" afterPath="$PROJECT_DIR$/openxc/tests/com/openxc/measurements/VehicleSpeedTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/ViConnectionListener.java" afterPath="$PROJECT_DIR$/openxc/build/generated/source/aidl/debug/com/openxc/remote/ViConnectionListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/BrakePedalPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/IgnitionPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/PaddleShifterPosition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/AbstractQueuedCallbackSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/AbstractQueuedCallbackSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/AcceleratorPedalPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/AcceleratorPedalPosition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/AgingData.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/AgingData.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/AmbientTemp.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/AmbientTemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/AndroidFileOpener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/AndroidFileOpener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/ApplicationSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/ApplicationSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/BaseMeasurement.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/BaseMeasurement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/BaseVehicleDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/BaseVehicleDataSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/BatteryVoltage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/BatteryVoltage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/BinaryDeserializer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/BinaryDeserializer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/BinaryFormatter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/BinaryFormatter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.AcceptanceFilterBypassCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.FrameFormat.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.FrameFormat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessageOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CanMessageOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponse.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponse.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponse.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponseOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.CommandResponseOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.Type.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.Type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.ControlCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.Action.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.Action.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticControlCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.DecodedType.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.DecodedType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequestOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticRequestOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponse.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponse.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponse.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponseOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DiagnosticResponseOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.Type.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.Type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicField.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicFieldOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.DynamicFieldOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PassthroughModeControlCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.PayloadFormat.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.PayloadFormat.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PayloadFormatCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommand.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommand.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommand.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommandOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.PredefinedObd2RequestsCommandOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessage.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessage.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessageOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.SimpleMessageOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.Builder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.Builder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.Type.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.Type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessageOrBuilder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.VehicleMessageOrBuilder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/BinaryMessages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/BinarySerializer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/BinarySerializer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/BinaryStreamer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/BinaryStreamer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/BluetoothPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/BluetoothPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BluetoothReceiver.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BluetoothReceiver.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothVehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothVehicleInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Boolean.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Boolean.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BootupReceiver.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BootupReceiver.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/BrakePedalStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/BrakePedalStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/ByteAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/ByteAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamConnectingTask.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamConnectingTask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamDataSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/CanMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/CanMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageDetailActivity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageDetailActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageViewFragment.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/CanMessageViewFragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Cluster.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Cluster.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Diagnostic.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Diagnostic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Engine.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Engine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Infotainment.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Infotainment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Tire.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Tire.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Transmission.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Transmission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Celsius.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Celsius.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/Command.CommandType.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/Command.CommandType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/Command.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/Command.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/CommandResponse.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/CommandResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/ContextualVehicleDataSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/ContextualVehicleDataSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/ContextualVehicleDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/ContextualVehicleDataSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Coordinate.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Coordinate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/DataPipeline.Operator.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/DataPipeline.Operator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/DataPipeline.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/DataPipeline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/DataSinkException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/DataSinkException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/DataSourceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/DataSourceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/DataSourceResourceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/DataSourceResourceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Degree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Degree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/DeviceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/DeviceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticRequest.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/DiagnosticRequestFragment.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/DiagnosticRequestFragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticResponse.NegativeResponseCode.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticResponse.NegativeResponseCode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticResponse.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/DiagnosticResponse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/DiagnosticResponseAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/DiagnosticResponseAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineCoolTemp.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineCoolTemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineOilTemp.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineOilTemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineSpeed.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/EngineSpeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/EventedMeasurement.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/EventedMeasurement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/EventedSimpleVehicleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/EventedSimpleVehicleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/ExactKeyMatcher.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/ExactKeyMatcher.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/FileOpener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/FileOpener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/FileRecorderSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/FileRecorderSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/FileRecordingPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/FileRecordingPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/FuelConsumed.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/FuelConsumed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/FuelLevel.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/FuelLevel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/GearPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/GearPosition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/GpsOverwritePreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/GpsOverwritePreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HeadlampStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HeadlampStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HighBeamStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HighBeamStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/Home.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/Home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/IgnitionStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/IgnitionStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/IntakeAirTemp.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/IntakeAirTemp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/JsonFormatter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/JsonFormatter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/JsonStreamer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/JsonStreamer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/KeyMatcher.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/KeyMatcher.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/KeyedMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/KeyedMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/KeyedMessageAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/KeyedMessageAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Kilometer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Kilometer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/KilometersPerHour.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/KilometersPerHour.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/KilopascalGauge.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/KilopascalGauge.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Latitude.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Latitude.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Liter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Liter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Longitude.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Longitude.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/LowercaseEnumTypeAdapterFactory.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/LowercaseEnumTypeAdapterFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Measurement.Listener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Measurement.Listener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Measurement.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/Measurement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/MessageCountTask.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/MessageCountTask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/MessageKey.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/MessageKey.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/MessageListenerSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/MessageListenerSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Meter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Meter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/NamedVehicleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/NamedVehicleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/NativeGpsPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/NativeGpsPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/NativeLocationSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/NativeLocationSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/NetworkPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/NetworkPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/NetworkSourceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/NetworkSourceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/NetworkVehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/NetworkVehicleInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/NewtonMeter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/NewtonMeter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/NoValueException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/NoValueException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/Odometer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/Odometer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/OilPressure.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/OilPressure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.EnablerFragmentAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.EnablerFragmentAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/PSI.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/PSI.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/PaddleShifterStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/PaddleShifterStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/ParkingBrakeStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/ParkingBrakeStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Percentage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Percentage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/PipelineStatusUpdateTask.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/PipelineStatusUpdateTask.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/PreferenceManagerService.PreferenceBinder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/PreferenceManagerService.PreferenceBinder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/PreferenceManagerService.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/PreferenceManagerService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Quantity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Quantity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/Range.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/Range.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/RemoteCallbackSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/RemoteCallbackSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/RemoteListenerSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/RemoteListenerSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/RotationsPerMinute.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/RotationsPerMinute.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/ScreenPressX.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/ScreenPressX.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/ScreenPressY.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/ScreenPressY.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SendCanMessageFragment.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SendCanMessageFragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/SerializationException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/SerializationException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.AboutPreferences.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.AboutPreferences.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.DataSourcePreferences.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.DataSourcePreferences.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.OutputPreferences.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.OutputPreferences.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.RecordingPreferences.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.RecordingPreferences.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SettingsActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/SimpleVehicleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/SimpleVehicleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SimpleVehicleMessageAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/SimpleVehicleMessageAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/SourceCallback.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/SourceCallback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/SourceLogger.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/SourceLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/State.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/State.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/StatusFragment.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/StatusFragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/SteeringWheelAngle.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/SteeringWheelAngle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/SupportSettingsUtils.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/SupportSettingsUtils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/TestSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/TestSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/TestSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/TestSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/TestVehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/TestVehicleInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/ThreadPreconditions.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/ThreadPreconditions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFLPressure.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFLPressure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFLStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFLStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFRPressure.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFRPressure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFRStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireFRStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRLPressure.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRLPressure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRLStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRLStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRRPressure.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRRPressure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRRStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/TireRRStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/TireStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/TireStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/TorqueAtTransmission.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/TorqueAtTransmission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/TraceSourcePreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/TraceSourcePreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/TraceVehicleDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/TraceVehicleDataSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/TransmissionGearPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/TransmissionGearPosition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/TurnSignalPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/TurnSignalPosition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/TurnSignalStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/TurnSignalStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Unit.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Unit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/UnrecognizedMeasurementTypeException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/UnrecognizedMeasurementTypeException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/UnrecognizedMessageTypeException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/UnrecognizedMessageTypeException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/UploaderSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/UploaderSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/UploadingPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/UploadingPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/UriBasedVehicleInterfaceMixin.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/UriBasedVehicleInterfaceMixin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceAttachmentActivity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceAttachmentActivity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceUtilities.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbDeviceUtilities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/UsbPreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/UsbPreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbVehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/UsbVehicleInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/UserInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/UserInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/UserSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/UserSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.ButtonAction.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.ButtonAction.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.ButtonId.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.ButtonId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleButtonEvent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/VehicleConnection.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/VehicleConnection.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/VehicleDashboardFragment.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/VehicleDashboardFragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/VehicleDataSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/VehicleDataSink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/VehicleDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/VehicleDataSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleDoorStatus.DoorId.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleDoorStatus.DoorId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleDoorStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/VehicleDoorStatus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceDescriptor.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceDescriptor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceFactory.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/VehicleInterfaceFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehicleInterfacePreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehicleInterfacePreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/VehicleLocationProvider.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/VehicleLocationProvider.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/VehicleManager.VehicleBinder.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/VehicleManager.VehicleBinder.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/VehicleManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/VehicleManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/VehicleMessage.Listener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/VehicleMessage.Listener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/VehicleMessage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/VehicleMessage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/VehicleMessageAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/VehicleMessageAdapter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/VehicleMessageStreamer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/VehicleMessageStreamer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehiclePreferenceManager.PreferenceListener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehiclePreferenceManager.PreferenceListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehiclePreferenceManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/VehiclePreferenceManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleService.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleService.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceException.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceInterface.Stub.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceInterface.Stub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceInterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceListener.Stub.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceListener.Stub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceListener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/VehicleServiceListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/VehicleSpeed.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/VehicleSpeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/ViConnectionListener.Stub.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/ViConnectionListener.Stub.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/ViConnectionListener.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/ViConnectionListener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Volt.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Volt.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/WakeLockManager.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/WakeLockManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/WindshieldWiperStatus.WiperId.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/WindshieldWiperStatus.WiperId.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/WindshieldWiperStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/WindshieldWiperStatus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/enabler.iml" afterPath="$PROJECT_DIR$/enabler/enabler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/enabler/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/mhacks6demo.iml" afterPath="$PROJECT_DIR$/mhacks6demo/mhacks6demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-13.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-14.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-15.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-16.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-17.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-18.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-19.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-20.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-21.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-22.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-22.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-23.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-23.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/res/values/styles.xml" afterPath="$PROJECT_DIR$/mhacks6demo/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/exploded-aar/openxc-android/openxc/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enabler/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/enabler/build/intermediates/res/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/bundles/debug/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/intermediates/res/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/openxc/build/intermediates/res/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-frame.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-summary.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/preferences/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/network/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/usb/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/cluster/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/engine/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/infotainment/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/tires/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/transmission/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/binary/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/remote/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/trace/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-tree.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="openxc-android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,24 +420,9 @@
       <file leaf-file-name="CarDataPacket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39306358">
-              <caret line="564" column="10" selection-start-line="564" selection-start-column="10" selection-end-line="564" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.39617488">
+              <caret line="716" column="34" selection-start-line="716" selection-start-column="34" selection-end-line="716" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VehicleConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-              <folding>
-                <element signature="e#6413#6628#0" expanded="true" />
-                <element signature="e#6627#6628#0" expanded="true" />
-                <element signature="e#6681#6896#0" expanded="true" />
-                <element signature="e#6895#6896#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -2952,11 +3176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/Volt.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/BatteryVoltage.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/EngineCoolTemp.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/IntakeAirTemp.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/EngineOilTemp.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/PaddleShifterStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/AmbientTemp.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/KilopascalGauge.java" />
@@ -2985,13 +3204,10 @@
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/transmission/TransmissionGearPosition.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/GearPosition.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/Coordinate.java" />
-        <option value="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/TurnSignalStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/vehicle/TurnSignalStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/Odometer.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/AcceleratorPedalPosition.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/HeadlampStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/ParkingBrakeStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HeadlampStatus.java" />
@@ -3001,8 +3217,16 @@
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/BatteryVoltage.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/OilPressure.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/OilPressure.java" />
-        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/BrakePedalPosition.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/IgnitionPosition.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/PaddleShifterPosition.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" />
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" />
+        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" />
+        <option value="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
+        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
       </list>
     </option>
   </component>
@@ -3017,10 +3241,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3048,6 +3272,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3156,206 +3390,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
+              <option name="myItemId" value="mhacks6demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transmission" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lighting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="infotainment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diagnostic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="measurements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cluster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3366,6 +3406,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mhacks6demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3384,6 +3432,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mhacks6demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhacks6demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3404,16 +3462,6 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3698,11 +3746,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49614397" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.48457584" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.48457584" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
@@ -3710,13 +3758,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49485862" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49485862" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.48714653" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39444444" sideWeight="0.48971722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5154242" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24742931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24742931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3780,59 +3828,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/openxc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/proguard.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.046153847">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37362638">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/openxc.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3840,7 +3839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.94285715">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3848,7 +3846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3856,7 +3853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3864,7 +3860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44835165">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3872,7 +3867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3880,7 +3874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.2791209">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3888,7 +3881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3896,7 +3888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3904,7 +3895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-156.90845">
           <caret line="44" column="159" selection-start-line="44" selection-start-column="159" selection-end-line="44" selection-end-column="159" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3912,7 +3902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3920,7 +3909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3936,7 +3924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3944,7 +3931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3952,7 +3938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14739884">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3968,7 +3953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3976,7 +3960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3984,7 +3967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44219652">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3992,7 +3974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14739884">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4000,17 +3981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12283237">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82051283">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -4023,22 +3993,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.098265894">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/AmbientTemp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4046,7 +4004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4054,7 +4011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4070,7 +4026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14739884">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4078,31 +4033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2947977">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/ParkingBrakeStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17196532">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/AcceleratorPedalPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24566475">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4110,7 +4040,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17196532">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4118,7 +4047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4126,7 +4054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4134,7 +4061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4142,15 +4068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22109826">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/SteeringWheelAngle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34393063">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4159,19 +4076,6 @@
         <state vertical-scroll-proportion="0.12283237">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="250" column="0" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
-          <folding>
-            <element signature="e#6413#6628#0" expanded="true" />
-            <element signature="e#6627#6628#0" expanded="true" />
-            <element signature="e#6681#6896#0" expanded="true" />
-            <element signature="e#6895#6896#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4187,14 +4091,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17196532">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/AcceleratorPedalPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/SteeringWheelAngle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39480874">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/IgnitionPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18579236">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1625683">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/PaddleShifterPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11612022">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3715847">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/ParkingBrakeStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/BrakePedalPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09289618">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/units/Degree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18579236">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73399717">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.510929">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.465847">
+          <caret line="116" column="81" selection-start-line="116" selection-start-column="81" selection-end-line="116" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39306358">
-          <caret line="564" column="10" selection-start-line="564" selection-start-column="10" selection-end-line="564" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.39617488">
+          <caret line="716" column="34" selection-start-line="716" selection-start-column="34" selection-end-line="716" selection-end-column="34" />
           <folding />
         </state>
       </provider>

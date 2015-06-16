@@ -2,15 +2,20 @@ package com.chrysler.mhacks6demo;
 
 import com.openxc.units.Celsius;
 import com.openxc.units.Coordinate;
+import com.openxc.units.Degree;
 import com.openxc.units.Kilometer;
 import com.openxc.units.KilometersPerHour;
 import com.openxc.units.KilopascalGauge;
 import com.openxc.units.Liter;
 import com.openxc.units.NewtonMeter;
 import com.openxc.units.PSI;
+import com.openxc.units.Percentage;
 import com.openxc.units.RotationsPerMinute;
 import com.openxc.units.Volt;
+import com.openxc.wrappers.BrakePedalPosition;
 import com.openxc.wrappers.GearPosition;
+import com.openxc.wrappers.IgnitionPosition;
+import com.openxc.wrappers.PaddleShifterPosition;
 import com.openxc.wrappers.TireStatus;
 import com.openxc.wrappers.TurnSignalPosition;
 
@@ -27,6 +32,8 @@ public class CarDataPacket {
     private Transmission transmission;
     private Cluster cluster;
     private Diagnostic diagnostic;
+    private Lighting lighting;
+    private UserControl userControl;
 
     public CarDataPacket() {
         tire = new Tire();
@@ -35,6 +42,8 @@ public class CarDataPacket {
         transmission = new Transmission();
         cluster = new Cluster();
         diagnostic = new Diagnostic();
+        lighting = new Lighting();
+        userControl = new UserControl();
     }
 
     /**
@@ -108,6 +117,30 @@ public class CarDataPacket {
      * @param diagnostic diagnostic object
      */
     public void setDiagnostic(Diagnostic diagnostic) { this.diagnostic = diagnostic; }
+
+    /**
+     * Get lighting information
+     * @return lighting object
+     */
+    public Lighting getLighting() { return this.lighting; }
+
+    /**
+     * Set lighting information
+     * @param lighting lighting object
+     */
+    public void setLighting(Lighting lighting) { this.lighting = lighting; }
+
+    /**
+     * Get user control information
+     * @return user control object
+     */
+    public UserControl getUserControl() { return this.userControl; }
+
+    /**
+     * Set user control information
+     * @param userControl user control object
+     */
+    public void setUserControl(UserControl userControl) { this.userControl = userControl; }
 
     /**
      * <b>Engine class</b><br>
@@ -550,26 +583,31 @@ public class CarDataPacket {
         private boolean headlamp, highBeam;
 
         /**
-         *
-         * @return
+         * Initialize sensor data to defaults
+         */
+        public Lighting() { }
+
+        /**
+         * Get headlamp status
+         * @return headlamp status as a boolean
          */
         public boolean getHeadlamp() { return headlamp; }
 
         /**
-         *
-         * @param headlamp
+         * Set headlamp status
+         * @param headlamp headlamp status as a boolean
          */
         public void setHeadlamp(com.openxc.units.Boolean headlamp) { this.headlamp = headlamp.booleanValue(); }
 
         /**
-         *
-         * @return
+         * Get high beam status
+         * @return high beam status as a boolean
          */
         public boolean getHighBeam() { return highBeam; }
 
         /**
-         *
-         * @param highBeam
+         * Set high beam status
+         * @param highBeam high beam status as a boolean
          */
         public void setHighBeam(com.openxc.units.Boolean highBeam) { this.highBeam = highBeam.booleanValue(); }
 
@@ -581,6 +619,131 @@ public class CarDataPacket {
         @Override
         public String toString() {
             return "High beams on: " + highBeam + "\nHeadlamps on: " + headlamp;
+        }
+    }
+
+    /**
+     * <b>User Control class</b><br>
+     * Contains accelerator pedal position, steering wheel angle, brake pedal, ignition, paddle shifter and parking brake statuses
+     *
+     * @see Degree
+     * @see Percentage
+     * @see BrakePedalPosition
+     * @see IgnitionPosition
+     * @see PaddleShifterPosition
+     */
+    public class UserControl {
+        private Percentage acceleratorPedalPosition;
+        private Degree steeringWheelAngle;
+        private BrakePedalPosition brakePedalPosition;
+        private IgnitionPosition ignitionPosition;
+        private boolean parkingBrakePosition;
+        private PaddleShifterPosition paddleShifterPosition;
+
+        /**
+         * Initialize sensor data to defaults
+         */
+        public UserControl() {
+            acceleratorPedalPosition = new Percentage(0);
+            steeringWheelAngle = new Degree(0);
+            brakePedalPosition = BrakePedalPosition.SNA;
+            ignitionPosition = IgnitionPosition.SNA;
+            parkingBrakePosition = false;
+            paddleShifterPosition = PaddleShifterPosition.SNA;
+        }
+
+        /**
+         * Get accelerator pedal position
+         * @return accelerator pedal position as a percentage (100% = pedal to the metal)
+         */
+        public Percentage getAcceleratorPedalPosition() { return acceleratorPedalPosition; }
+
+        /**
+         * Set accelerator pedal position
+         * @param acceleratorPedalPosition accelerator pedal position as a percentage (100% = pedal to the metal)
+         */
+        public void setAcceleratorPedalPosition(Percentage acceleratorPedalPosition) {
+            this.acceleratorPedalPosition = acceleratorPedalPosition;
+        }
+
+        /**
+         * Set steering wheel angle
+         * @return steering wheel angle in degrees (0 degrees=wheels straight, degree<0 = turning left, degree>0 = turning right)
+         */
+        public Degree getSteeringWheelAngle() { return steeringWheelAngle; }
+
+        /**
+         * Set steering wheel angle
+         * @param steeringWheelAngle steering wheel angle in degrees (0 degrees : wheels straight, degree=- : turning left, degree=+ : turning right)
+         */
+        public void setSteeringWheelAngle(Degree steeringWheelAngle) { this.steeringWheelAngle = steeringWheelAngle; }
+
+        /**
+         * Get brake pedal position
+         * @return brake pedal position
+         */
+        public BrakePedalPosition getBrakePedalPosition() { return brakePedalPosition; }
+
+        /**
+         * Set brake pedal position
+         * @param brakePedalPosition brake pedal position
+         */
+        public void setBrakePedalPosition(BrakePedalPosition brakePedalPosition) {
+            this.brakePedalPosition = brakePedalPosition;
+        }
+
+        /**
+         * Get ignition position
+         * @return ignition position
+         */
+        public IgnitionPosition getIgnitionPosition() { return ignitionPosition; }
+
+        /**
+         * Set ignition position
+         * @param ignitionPosition ignition position
+         */
+        public void setIgnitionPosition(IgnitionPosition ignitionPosition) { this.ignitionPosition = ignitionPosition; }
+
+        /**
+         * Get parking brake status
+         * @return parking brake status
+         */
+        public boolean isParkingBrakePosition() { return parkingBrakePosition; }
+
+        /**
+         * Set parking brake status
+         * @param parkingBrakePosition parking brake status
+         */
+        public void setParkingBrakePosition(com.openxc.units.Boolean parkingBrakePosition) {
+            this.parkingBrakePosition = parkingBrakePosition.booleanValue();
+        }
+
+        /**
+         * Get paddle shifter positions
+         * @return paddle shifter position
+         */
+        public PaddleShifterPosition getPaddleShifterPosition() { return paddleShifterPosition; }
+
+        /**
+         * Set paddle shifter positions
+         * @param paddleShifterPosition paddle shifter position
+         */
+        public void setPaddleShifterPosition(PaddleShifterPosition paddleShifterPosition) {
+            this.paddleShifterPosition = paddleShifterPosition;
+        }
+
+        /**
+         * Converts the user control object to a string<br>
+         * <pre>    Accelerator Pedal: 0 %<br>    Brake Pedal: SNA
+         *    Ignition Status: SNA<br>    Paddle Shifter Status: SNA<br>    Parking brake status: false
+         *    Steering wheel angle: 0°</pre>
+         * @return Cluster string
+         */
+        @Override
+        public String toString() {
+            return "Accelerator Pedal: " + acceleratorPedalPosition + "\nBrake Pedal: " + brakePedalPosition +
+                    "\nIgnition Status: " + ignitionPosition + "\nPaddle Shifter Status: " + paddleShifterPosition +
+                    "\nParking brake status: " + parkingBrakePosition + "\nSteering Wheel Angle: " + steeringWheelAngle;
         }
     }
 

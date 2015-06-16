@@ -2,33 +2,26 @@ package com.openxc.measurements.user_control;
 
 import com.openxc.measurements.BaseMeasurement;
 import com.openxc.units.State;
+import com.openxc.wrappers.PaddleShifterPosition;
 
 import java.util.Locale;
 
 /**
  * The PaddleShifterStatus measurement knows if the paddle shifters are pressed.
  */
-public class PaddleShifterStatus extends BaseMeasurement<State<PaddleShifterStatus.PaddleShifterState>> {
+public class PaddleShifterStatus extends BaseMeasurement<State<PaddleShifterPosition>> {
     public final static String ID = "Pad_Shft";
 
-    public enum PaddleShifterState {
-        PS_OFF,
-        PS_RIGHT,
-        PS_LEFT,
-        PS_BOTH,
-        SNA
-    }
-
-    public PaddleShifterStatus(State<PaddleShifterState> value) {
+    public PaddleShifterStatus(State<PaddleShifterPosition> value) {
         super(value);
     }
 
-    public PaddleShifterStatus(PaddleShifterState value) {
-        this(new State<PaddleShifterState>(value));
+    public PaddleShifterStatus(PaddleShifterPosition value) {
+        this(new State<PaddleShifterPosition>(value));
     }
 
     public PaddleShifterStatus(String value) {
-        this(PaddleShifterState.valueOf(value.toUpperCase(Locale.US)));
+        this(PaddleShifterPosition.valueOf(value.toUpperCase(Locale.US)));
     }
 
     @Override

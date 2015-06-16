@@ -26,7 +26,11 @@ public class UserInterface {
         tire.setText(cdp.getTire().toString());
         TextView transmission = (TextView)activity.findViewById(R.id.transmission);
         transmission.setText(cdp.getTransmission().toString());
-        TextView vehicle = (TextView)activity.findViewById(R.id.vehicle);
-        vehicle.setText(cdp.getVehicle().toString());
+        TextView cluster = (TextView)activity.findViewById(R.id.cluster);
+        cluster.setText(cdp.getCluster().toString());
+        TextView lighting = (TextView)activity.findViewById(R.id.lighting);
+        lighting.setText(cdp.getLighting().toString());
+        TextView userControl = (TextView)activity.findViewById(R.id.userControl);
+        userControl.setText(cdp.getUserControl().toString());
     }
 }

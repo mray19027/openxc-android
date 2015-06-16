@@ -21,6 +21,8 @@ import com.openxc.measurements.engine.EngineOilTemp;
 import com.openxc.measurements.engine.EngineSpeed;
 import com.openxc.measurements.infotainment.ScreenPressX;
 import com.openxc.measurements.infotainment.ScreenPressY;
+import com.openxc.measurements.lighting.HeadlampStatus;
+import com.openxc.measurements.lighting.HighBeamStatus;
 import com.openxc.measurements.tires.TireFLPressure;
 import com.openxc.measurements.tires.TireFLStatus;
 import com.openxc.measurements.tires.TireFRPressure;
@@ -31,6 +33,12 @@ import com.openxc.measurements.tires.TireRRPressure;
 import com.openxc.measurements.tires.TireRRStatus;
 import com.openxc.measurements.transmission.TorqueAtTransmission;
 import com.openxc.measurements.transmission.TransmissionGearPosition;
+import com.openxc.measurements.user_control.AcceleratorPedalPosition;
+import com.openxc.measurements.user_control.BrakePedalStatus;
+import com.openxc.measurements.user_control.IgnitionStatus;
+import com.openxc.measurements.user_control.PaddleShifterStatus;
+import com.openxc.measurements.user_control.ParkingBrakeStatus;
+import com.openxc.measurements.user_control.SteeringWheelAngle;
 
 public class VehicleConnection implements ServiceConnection {
     private VehicleManager vehicleManager;
@@ -72,6 +80,14 @@ public class VehicleConnection implements ServiceConnection {
         vehicleManager.addListener(OilPressure.class, mOilPressure);
         vehicleManager.addListener(TurnSignalStatus.class, mTurnSignalStatus);
         vehicleManager.addListener(VehicleSpeed.class, mVehicleSpeed);
+        vehicleManager.addListener(HeadlampStatus.class, mHeadlampStatus);
+        vehicleManager.addListener(HighBeamStatus.class, mHighBeamStatus);
+        vehicleManager.addListener(AcceleratorPedalPosition.class, mAcceleratorPedalPosition);
+        vehicleManager.addListener(BrakePedalStatus.class, mBrakePedalStatus);
+        vehicleManager.addListener(IgnitionStatus.class, mIgnitionStatus);
+        vehicleManager.addListener(PaddleShifterStatus.class, mPaddleShifterStatus);
+        vehicleManager.addListener(ParkingBrakeStatus.class, mParkingBrakeStatus);
+        vehicleManager.addListener(SteeringWheelAngle.class, mSteeringWheelAngle);
     }
 
     public void removeListeners() {
@@ -100,6 +116,14 @@ public class VehicleConnection implements ServiceConnection {
         vehicleManager.removeListener(OilPressure.class, mOilPressure);
         vehicleManager.removeListener(TurnSignalStatus.class, mTurnSignalStatus);
         vehicleManager.removeListener(VehicleSpeed.class, mVehicleSpeed);
+        vehicleManager.removeListener(HeadlampStatus.class, mHeadlampStatus);
+        vehicleManager.removeListener(HighBeamStatus.class, mHighBeamStatus);
+        vehicleManager.removeListener(AcceleratorPedalPosition.class, mAcceleratorPedalPosition);
+        vehicleManager.removeListener(BrakePedalStatus.class, mBrakePedalStatus);
+        vehicleManager.removeListener(IgnitionStatus.class, mIgnitionStatus);
+        vehicleManager.removeListener(PaddleShifterStatus.class, mPaddleShifterStatus);
+        vehicleManager.removeListener(ParkingBrakeStatus.class, mParkingBrakeStatus);
+        vehicleManager.removeListener(SteeringWheelAngle.class, mSteeringWheelAngle);
     }
 
     @Override
@@ -281,6 +305,62 @@ public class VehicleConnection implements ServiceConnection {
         @Override
         public void receive(Measurement measurement) {
             carDataPacket.getCluster().setVehicleSpeed(((VehicleSpeed) measurement).getValue());
+        }
+    };
+
+    private HeadlampStatus.Listener mHeadlampStatus = new HeadlampStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getLighting().setHeadlamp(((HeadlampStatus) measurement).getValue());
+        }
+    };
+
+    private HighBeamStatus.Listener mHighBeamStatus = new HighBeamStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getLighting().setHighBeam(((HighBeamStatus) measurement).getValue());
+        }
+    };
+
+    private AcceleratorPedalPosition.Listener mAcceleratorPedalPosition = new AcceleratorPedalPosition.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setAcceleratorPedalPosition(((AcceleratorPedalPosition) measurement).getValue());
+        }
+    };
+
+    private BrakePedalStatus.Listener mBrakePedalStatus = new BrakePedalStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setBrakePedalPosition(((BrakePedalStatus) measurement).getValue().enumValue());
+        }
+    };
+
+    private IgnitionStatus.Listener mIgnitionStatus = new IgnitionStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setIgnitionPosition(((IgnitionStatus) measurement).getValue().enumValue());
+        }
+    };
+
+    private PaddleShifterStatus.Listener mPaddleShifterStatus = new PaddleShifterStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setPaddleShifterPosition(((PaddleShifterStatus) measurement).getValue().enumValue());
+        }
+    };
+
+    private ParkingBrakeStatus.Listener mParkingBrakeStatus = new ParkingBrakeStatus.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setParkingBrakePosition(((ParkingBrakeStatus) measurement).getValue());
+        }
+    };
+
+    private SteeringWheelAngle.Listener mSteeringWheelAngle = new SteeringWheelAngle.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getUserControl().setSteeringWheelAngle(((SteeringWheelAngle) measurement).getValue());
         }
     };
 }

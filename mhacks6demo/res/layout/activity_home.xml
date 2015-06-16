@@ -40,7 +40,21 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/vehicle"
+            android:id="@+id/cluster"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lighting"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/userControl"
             android:textSize="20sp"
             android:paddingBottom="5dp"
             android:layout_width="wrap_content"
