@@ -1,6 +1,7 @@
 package com.chrysler.mhacks6demo;
 
 import android.app.Activity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.chrysler.t0826mr.mhacks6demo.R;
@@ -32,5 +33,23 @@ public class UserInterface {
         lighting.setText(cdp.getLighting().toString());
         TextView userControl = (TextView)activity.findViewById(R.id.userControl);
         userControl.setText(cdp.getUserControl().toString());
+    }
+
+    public void simulateTouch(View masterView) {
+        //TODO differentiate from the screen coordinates what is a false touch or not, and then filter results to only simulate on an actual touch
+        /*
+        long downTime = SystemClock.uptimeMillis();
+        long eventTime = SystemClock.uptimeMillis() + 100;
+        int metaState = 0;
+        MotionEvent motionEvent = MotionEvent.obtain(
+                downTime,
+                eventTime,
+                MotionEvent.ACTION_UP,
+                cdp.getInfotainment().getScreenX().intValue(),
+                cdp.getInfotainment().getScreenY().intValue(),
+                metaState
+        );
+        masterView.dispatchTouchEvent(motionEvent);
+        */
     }
 }

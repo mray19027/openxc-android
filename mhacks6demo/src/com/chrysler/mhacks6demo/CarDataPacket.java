@@ -7,6 +7,7 @@ import com.openxc.units.Kilometer;
 import com.openxc.units.KilometersPerHour;
 import com.openxc.units.KilopascalGauge;
 import com.openxc.units.Liter;
+import com.openxc.units.MetersPerSecondSquared;
 import com.openxc.units.NewtonMeter;
 import com.openxc.units.PSI;
 import com.openxc.units.Percentage;
@@ -16,6 +17,7 @@ import com.openxc.wrappers.BrakePedalPosition;
 import com.openxc.wrappers.GearPosition;
 import com.openxc.wrappers.IgnitionPosition;
 import com.openxc.wrappers.PaddleShifterPosition;
+import com.openxc.wrappers.SwitchState;
 import com.openxc.wrappers.TireStatus;
 import com.openxc.wrappers.TurnSignalPosition;
 
@@ -205,8 +207,8 @@ public class CarDataPacket {
          */
         @Override
         public String toString() {
-            return "Engine coolant temperature: " + engineCoolTemp + "\nEngine oil temperature: " + engineCoolTemp
-                    + "\nEngine speed: " + engineSpeed;
+            return "Engine coolant temperature: " + engineCoolTemp.toString() + "\nEngine oil temperature: " + engineCoolTemp.toString()
+                    + "\nEngine speed: " + engineSpeed.toString();
         }
     }
 
@@ -277,8 +279,10 @@ public class CarDataPacket {
          */
         @Override
         public String toString() {
-            return "Tire pressures: " + tirePressure[0] + ", " + tirePressure[1] + ", " + tirePressure[2] + ", " + tirePressure[3]
-                    + "\nTire sensors: " + tireStatus[0] + ", " + tireStatus[1] + ", " + tireStatus[2] + ", " + tireStatus[3];
+            return "Tire pressures: " + tirePressure[0].toString() + ", " + tirePressure[1].toString() + ", " +
+                    tirePressure[2].toString() + ", " + tirePressure[3].toString()
+                    + "\nTire sensors: " + tireStatus[0].toString() + ", " + tireStatus[1].toString() + ", " +
+                    tireStatus[2].toString() + ", " + tireStatus[3].toString();
         }
     }
 
@@ -287,9 +291,11 @@ public class CarDataPacket {
      * Contains screen coordinates
      *
      * @see Coordinate
+     * @see SwitchState
      */
     public class Infotainment {
         private Coordinate screenX, screenY;
+        private SwitchState vol, seek;
 
         /**
          * Initialize sensor data to defaults
@@ -297,6 +303,8 @@ public class CarDataPacket {
         public Infotainment() {
             screenX = new Coordinate(0);
             screenY = new Coordinate(0);
+            vol = SwitchState.SNA;
+            seek = SwitchState.SNA;
         }
 
         /**
@@ -313,7 +321,7 @@ public class CarDataPacket {
 
         /**
          * Get screen Y touch coordinate
-         * @return @see y coordinate in pixels
+         * @return y coordinate in pixels
          */
         public Coordinate getScreenY() { return screenY; }
 
@@ -324,13 +332,39 @@ public class CarDataPacket {
         public void setScreenY(Coordinate screenY) { this.screenY = screenY; }
 
         /**
+         * Get volume switch state
+         * @return volume switch state
+         */
+        public SwitchState getVol() { return vol; }
+
+        /**
+         * Set volume switch state
+         * @param vol volume switch state
+         */
+        public void setVol(SwitchState vol) { this.vol = vol; }
+
+        /**
+         * Get seek (radio tuner) switch state
+         * @return seek (radio tuner) switch state
+         */
+        public SwitchState getSeek() { return seek; }
+
+        /**
+         * Set seek (radio tuner) switch state
+         * @param seek seek (radio tuner) switch state
+         */
+        public void setSeek(SwitchState seek) { this.seek = seek; }
+
+        /**
          * Converts the infotainment object to a string<br>
-         * <pre>    X touch coordinate: 0 pixels<br>    Y touch coordinate: 0 pixels</pre>
+         * <pre>    X touch coordinate: 0 pixels<br>    Y touch coordinate: 0 pixels
+         *    Volume switch state: SNA<br>    Seek switch state: SNA</pre>
          * @return Infotainment string
          */
         @Override
         public String toString() {
-            return "X touch coordinate: " + screenX + "\nY touch coordinate: " + screenY;
+            return "X touch coordinate: " + screenX.toString() + "\nY touch coordinate: " + screenY.toString() +
+                    "\nVolume switch state: " + vol.toString() + "\nSeek switch state: " + seek.toString();
         }
     }
 
@@ -402,24 +436,27 @@ public class CarDataPacket {
      * @see TurnSignalPosition
      */
     public class Cluster {
-        private Celsius ambientTemp;
+        private Celsius ambientTemp, outsideAirTemp;
         private Liter fuelConsumed, fuelLevel;
         private Kilometer odometer;
         private KilopascalGauge oilPressure;
         private KilometersPerHour vehicleSpeed;
         private TurnSignalPosition turnSignalPosition;
+        private boolean brakeFluidLow;
 
         /**
          * Initialize sensor data to defaults
          */
         public Cluster() {
             ambientTemp = new Celsius(0);
+            outsideAirTemp = new Celsius(0);
             fuelConsumed = new Liter(0);
             fuelLevel = new Liter(0);
             odometer = new Kilometer(0);
             oilPressure = new KilopascalGauge(0);
             vehicleSpeed = new KilometersPerHour(0);
             turnSignalPosition = TurnSignalPosition.OFF;
+            brakeFluidLow = false;
         }
 
         /**
@@ -507,17 +544,42 @@ public class CarDataPacket {
         public void setTurnSignalPosition(TurnSignalPosition turnSignalPosition) { this.turnSignalPosition = turnSignalPosition; }
 
         /**
+         * Get outside air temperature
+         * @return outside air temperature in degree celsius
+         */
+        public Celsius getOutsideAirTemp() { return outsideAirTemp; }
+
+        /**
+         * Set outside air temperature
+         * @param outsideAirTemp outside air temperature in degree celsius
+         */
+        public void setOutsideAirTemp(Celsius outsideAirTemp) { this.outsideAirTemp = outsideAirTemp; }
+
+        /**
+         * Get brake fluid low status
+         * @return brake fluid low status as a boolean
+         */
+        public boolean getBrakeFluidLow() { return brakeFluidLow; }
+
+        /**
+         * Set brake fluid low status
+         * @param brakeFluidLow brake fluid low status as a boolean
+         */
+        public void setBrakeFluidLow(com.openxc.units.Boolean brakeFluidLow) { this.brakeFluidLow = brakeFluidLow.booleanValue(); }
+
+        /**
          * Converts the cluster object to a string<br>
          * <pre>    Ambient temperature: 0 C<br>    Fuel consumed since last ignition: 0 L
          *    Fuel level: 0 L<br>    Odometer: 0 km<br>    Oil pressure: 0 kPaG
-         *    Vehicle speed: 0 km/h<br>    Turn signal position: OFF</pre>
+         *    Vehicle speed: 0 km/h<br>    Turn signal position: OFF<br>    Outside Air Temperature: 0 C</pre>
          * @return Cluster string
          */
         @Override
         public String toString() {
-            return "Ambient temperature: " + ambientTemp + "\nFuel consumed since last ignition:" + fuelConsumed +
-                    "\nFuel level: " + fuelLevel + "\nOdometer: " + odometer + "\nOil pressure: " + oilPressure +
-                    "\nVehicle speed: " + vehicleSpeed + "\nTurn signal position: " + turnSignalPosition;
+            return "Ambient temperature: " + ambientTemp.toString() + "\nFuel consumed since last ignition:" + fuelConsumed.toString() +
+                    "\nFuel level: " + fuelLevel.toString() + "\nOdometer: " + odometer.toString() + "\nOil pressure: " + oilPressure.toString() +
+                    "\nVehicle speed: " + vehicleSpeed.toString() + "\nTurn signal position: " + turnSignalPosition.toString() +
+                    "\nOutside air temperature: " + outsideAirTemp.toString() + "\nBrake Fluid Low: " + brakeFluidLow;
         }
     }
 
@@ -531,6 +593,7 @@ public class CarDataPacket {
     public class Diagnostic {
         private Volt batteryVoltage;
         private Celsius intakeAirTemp;
+        private MetersPerSecondSquared vehicleAccelX, vehicleAccelY;
 
         /**
          * Initialize sensor data to defaults
@@ -538,6 +601,8 @@ public class CarDataPacket {
         public Diagnostic() {
             batteryVoltage = new Volt(0);
             intakeAirTemp = new Celsius(0);
+            vehicleAccelX = new MetersPerSecondSquared(0);
+            vehicleAccelY = new MetersPerSecondSquared(0);
         }
 
         /**
@@ -565,13 +630,38 @@ public class CarDataPacket {
         public void setIntakeAirTemp(Celsius intakeAirTemp) { this.intakeAirTemp = intakeAirTemp; }
 
         /**
+         * Get forward vehicle acceleration (x)
+         * @return forward vehicle acceleration (x-direction) in meters per second squared
+         */
+        public MetersPerSecondSquared getForwardAcceleration() { return vehicleAccelX; }
+
+        /**
+         * Set forward vehicle acceleration (x)
+         * @param vehicleAccelX forward vehicle acceleration (x-direction) in meters per second squared
+         */
+        public void setForwardAcceleration(MetersPerSecondSquared vehicleAccelX) { this.vehicleAccelX = vehicleAccelX; }
+
+        /**
+         * Get climb vehicle acceleration (y)
+         * @return climb vehicle acceleration (y-direction) in meters per second squared
+         */
+        public MetersPerSecondSquared getClimbAcceleration() { return vehicleAccelY; }
+
+        /**
+         * Set climb vehicle acceleration (y)
+         * @param vehicleAccelY climb vehicle acceleration (y-direction) in meters per second squared
+         */
+        public void setClimbAcceleration(MetersPerSecondSquared vehicleAccelY) { this.vehicleAccelY = vehicleAccelY; }
+
+        /**
          * Converts the diagnostic object to a string<br>
          * <pre>    Battery voltage: 0 V<br>    Intake air temperature: 0 C</pre>
          * @return Transmission string
          */
         @Override
         public String toString() {
-            return "Battery voltage: " + batteryVoltage.toString() + "\nIntake air temperature: " + intakeAirTemp.toString();
+            return "Battery voltage: " + batteryVoltage.toString() + "\nIntake air temperature: " + intakeAirTemp.toString() +
+                    "\nForward acceleration (x): " + vehicleAccelX.toString() + "\nClimb acceleration (y): " + vehicleAccelY.toString();
         }
     }
 
@@ -736,15 +826,17 @@ public class CarDataPacket {
          * Converts the user control object to a string<br>
          * <pre>    Accelerator Pedal: 0 %<br>    Brake Pedal: SNA
          *    Ignition Status: SNA<br>    Paddle Shifter Status: SNA<br>    Parking brake status: false
-         *    Steering wheel angle: 0°</pre>
+         *    Steering wheel angle: 0 degrees</pre>
          * @return Cluster string
          */
         @Override
         public String toString() {
-            return "Accelerator Pedal: " + acceleratorPedalPosition + "\nBrake Pedal: " + brakePedalPosition +
-                    "\nIgnition Status: " + ignitionPosition + "\nPaddle Shifter Status: " + paddleShifterPosition +
-                    "\nParking brake status: " + parkingBrakePosition + "\nSteering Wheel Angle: " + steeringWheelAngle;
+            return "Accelerator Pedal: " + acceleratorPedalPosition.toString() + "\nBrake Pedal: " + brakePedalPosition.toString() +
+                    "\nIgnition Status: " + ignitionPosition.toString() + "\nPaddle Shifter Status: " + paddleShifterPosition.toString() +
+                    "\nParking brake status: " + parkingBrakePosition + "\nSteering Wheel Angle: " + steeringWheelAngle.toString();
         }
     }
+
+
 
 }

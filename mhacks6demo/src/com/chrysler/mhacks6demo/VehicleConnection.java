@@ -8,19 +8,25 @@ import android.util.Log;
 import com.openxc.VehicleManager;
 import com.openxc.measurements.Measurement;
 import com.openxc.measurements.cluster.AmbientTemp;
+import com.openxc.measurements.cluster.BrakeFluidLow;
 import com.openxc.measurements.cluster.FuelConsumed;
 import com.openxc.measurements.cluster.FuelLevel;
 import com.openxc.measurements.cluster.Odometer;
 import com.openxc.measurements.cluster.OilPressure;
+import com.openxc.measurements.cluster.OutsideAirTemp;
 import com.openxc.measurements.cluster.TurnSignalStatus;
 import com.openxc.measurements.cluster.VehicleSpeed;
 import com.openxc.measurements.diagnostic.BatteryVoltage;
 import com.openxc.measurements.diagnostic.IntakeAirTemp;
+import com.openxc.measurements.diagnostic.VehicleAccelerationX;
+import com.openxc.measurements.diagnostic.VehicleAccelerationY;
 import com.openxc.measurements.engine.EngineCoolTemp;
 import com.openxc.measurements.engine.EngineOilTemp;
 import com.openxc.measurements.engine.EngineSpeed;
 import com.openxc.measurements.infotainment.ScreenPressX;
 import com.openxc.measurements.infotainment.ScreenPressY;
+import com.openxc.measurements.infotainment.Seek;
+import com.openxc.measurements.infotainment.Volume;
 import com.openxc.measurements.lighting.HeadlampStatus;
 import com.openxc.measurements.lighting.HighBeamStatus;
 import com.openxc.measurements.tires.TireFLPressure;
@@ -88,6 +94,12 @@ public class VehicleConnection implements ServiceConnection {
         vehicleManager.addListener(PaddleShifterStatus.class, mPaddleShifterStatus);
         vehicleManager.addListener(ParkingBrakeStatus.class, mParkingBrakeStatus);
         vehicleManager.addListener(SteeringWheelAngle.class, mSteeringWheelAngle);
+        vehicleManager.addListener(Volume.class, mVolume);
+        vehicleManager.addListener(Seek.class, mSeek);
+        vehicleManager.addListener(OutsideAirTemp.class, mOutsideAirTemp);
+        vehicleManager.addListener(VehicleAccelerationX.class, mVehicleAccelerationX);
+        vehicleManager.addListener(VehicleAccelerationY.class, mVehicleAccelerationY);
+        vehicleManager.addListener(BrakeFluidLow.class, mBrakeFluidLow);
     }
 
     public void removeListeners() {
@@ -124,6 +136,12 @@ public class VehicleConnection implements ServiceConnection {
         vehicleManager.removeListener(PaddleShifterStatus.class, mPaddleShifterStatus);
         vehicleManager.removeListener(ParkingBrakeStatus.class, mParkingBrakeStatus);
         vehicleManager.removeListener(SteeringWheelAngle.class, mSteeringWheelAngle);
+        vehicleManager.removeListener(Volume.class, mVolume);
+        vehicleManager.removeListener(Seek.class, mSeek);
+        vehicleManager.removeListener(OutsideAirTemp.class, mOutsideAirTemp);
+        vehicleManager.removeListener(VehicleAccelerationX.class, mVehicleAccelerationX);
+        vehicleManager.removeListener(VehicleAccelerationY.class, mVehicleAccelerationY);
+        vehicleManager.removeListener(BrakeFluidLow.class, mBrakeFluidLow);
     }
 
     @Override
@@ -361,6 +379,48 @@ public class VehicleConnection implements ServiceConnection {
         @Override
         public void receive(Measurement measurement) {
             carDataPacket.getUserControl().setSteeringWheelAngle(((SteeringWheelAngle) measurement).getValue());
+        }
+    };
+
+    private Volume.Listener mVolume = new Volume.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getInfotainment().setVol(((Volume) measurement).getValue().enumValue());
+        }
+    };
+
+    private Seek.Listener mSeek = new Seek.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getInfotainment().setSeek(((Seek) measurement).getValue().enumValue());
+        }
+    };
+
+    private OutsideAirTemp.Listener mOutsideAirTemp = new OutsideAirTemp.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getCluster().setOutsideAirTemp(((OutsideAirTemp) measurement).getValue());
+        }
+    };
+
+    private VehicleAccelerationX.Listener mVehicleAccelerationX = new VehicleAccelerationX.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getDiagnostic().setForwardAcceleration(((VehicleAccelerationX) measurement).getValue());
+        }
+    };
+
+    private VehicleAccelerationY.Listener mVehicleAccelerationY = new VehicleAccelerationY.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getDiagnostic().setClimbAcceleration(((VehicleAccelerationY) measurement).getValue());
+        }
+    };
+
+    private BrakeFluidLow.Listener mBrakeFluidLow = new BrakeFluidLow.Listener() {
+        @Override
+        public void receive(Measurement measurement) {
+            carDataPacket.getCluster().setBrakeFluidLow(((BrakeFluidLow) measurement).getValue());
         }
     };
 }

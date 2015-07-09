@@ -83,6 +83,8 @@ public class Home extends Activity {
 
         @Override
         protected void onPostExecute(CarDataPacket cdp) {
+            ui.simulateTouch(findViewById(R.id.container));
+
             //TODO utilize information from the Car data packet
             ui.updateCarDataPacket(cdp);
             ui.refreshScreen();

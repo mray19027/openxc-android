@@ -14,9 +14,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a326cc54-f4c0-431c-8619-11bb7c9cc5a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/BrakePedalPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/IgnitionPosition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/PaddleShifterPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mhacks6demo/mhacks6demo-debug.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/BrakeFluidLow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/units/MetersPerSecondSquared.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/OutsideAirTemp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Seek.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/SwitchState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationY.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Volume.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-release.aar" afterPath="$PROJECT_DIR$/openxc/build/outputs/aar/openxc-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sinks/AbstractQueuedCallbackSink.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sinks/AbstractQueuedCallbackSink.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/AcceleratorPedalPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/AcceleratorPedalPosition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/util/AgingData.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/util/AgingData.html" />
@@ -83,8 +95,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothVehicleInterface.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/interfaces/bluetooth/BluetoothVehicleInterface.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Boolean.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Boolean.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BootupReceiver.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/BootupReceiver.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/BrakePedalPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/BrakePedalPosition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/BrakePedalStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/BrakePedalStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/BrakePedalStatus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/ByteAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/ByteAdapter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamConnectingTask.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamConnectingTask.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamDataSource.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/sources/BytestreamDataSource.html" />
@@ -96,8 +108,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Diagnostic.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Diagnostic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Engine.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Engine.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Infotainment.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Infotainment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Lighting.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Lighting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Tire.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Tire.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Transmission.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.Transmission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.UserControl.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.UserControl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/CarDataPacket.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Celsius.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Celsius.html" />
@@ -136,8 +150,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HeadlampStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HeadlampStatus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HighBeamStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/lighting/HighBeamStatus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/Home.html" afterPath="$PROJECT_DIR$/javadoc/com/chrysler/mhacks6demo/Home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java" afterPath="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/IgnitionPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/IgnitionPosition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/IgnitionStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/IgnitionStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/IntakeAirTemp.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/diagnostic/IntakeAirTemp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/JsonFormatter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/formatters/JsonFormatter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/JsonStreamer.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/messages/streamers/JsonStreamer.html" />
@@ -170,8 +185,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.EnablerFragmentAdapter.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.EnablerFragmentAdapter.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/OpenXcEnablerActivity.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/PSI.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/PSI.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/PaddleShifterPosition.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/wrappers/PaddleShifterPosition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/PaddleShifterStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/PaddleShifterStatus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" afterPath="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/ParkingBrakeStatus.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/measurements/user_control/ParkingBrakeStatus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/units/Percentage.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/units/Percentage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/com/openxc/enabler/PipelineStatusUpdateTask.html" afterPath="$PROJECT_DIR$/javadoc/com/openxc/enabler/PipelineStatusUpdateTask.html" />
@@ -272,6 +287,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/constant-values.html" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/help-doc.html" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" />
@@ -299,7 +315,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/index.html" afterPath="$PROJECT_DIR$/javadoc/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" />
@@ -420,8 +435,18 @@
       <file leaf-file-name="CarDataPacket.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39617488">
-              <caret line="716" column="34" selection-start-line="716" selection-start-column="34" selection-end-line="716" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.5534682">
+              <caret line="577" column="34" selection-start-line="577" selection-start-column="34" selection-end-line="577" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VehicleConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -433,8 +458,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\t0826mr\.android\debug.keystore" />
+    <option name="KEY_ALIAS" value="androiddebugkey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -3176,15 +3207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/PaddleShifterStatus.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/AmbientTemp.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/KilopascalGauge.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/OilPressure.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/PSI.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/TirePressureStatus.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireLeftPressure.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFLPressure.java" />
-        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFRPressure.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRLPressure.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireRRPressure.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/BaseMeasurement.java" />
@@ -3200,7 +3222,6 @@
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/t0826mr/mhacks6demo/UserInterface.java" />
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/t0826mr/mhacks6demo/VehicleConnection.java" />
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/t0826mr/mhacks6demo/Home.java" />
-        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/transmission/TransmissionGearPosition.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/GearPosition.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/Coordinate.java" />
@@ -3223,10 +3244,20 @@
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/IgnitionStatus.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/PaddleShifterPosition.java" />
         <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/user_control/PaddleShifterStatus.java" />
+        <option value="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/wrappers/Switch.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Seel.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Volume.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Seek.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/OutsideAirTemp.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/units/MetersPerSecondSquared.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationX.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationY.java" />
+        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java" />
+        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
+        <option value="$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/BrakeFluidLow.java" />
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java" />
         <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java" />
-        <option value="$PROJECT_DIR$/mhacks6demo/res/layout/activity_home.xml" />
-        <option value="$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java" />
       </list>
     </option>
   </component>
@@ -3241,10 +3272,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1592" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
-    <option name="height" value="916" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3260,7 +3291,7 @@
     <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3272,12 +3303,20 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="openxc-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3390,6 +3429,84 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lighting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diagnostic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mhacks6demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
@@ -3446,37 +3563,135 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Changed Files">
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openxc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="measurements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cluster" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="gradle.compiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="android.project.structure.last.selected" value="mhacks6demo" />
+    <property name="android.project.structure.last.selected" value="enabler" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="TA91900GG6" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.android/debug.keystore" />
+    <property name="ExportApk.ApkPath" value="C:\Users\t0826mr\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3488,9 +3703,11 @@
       <recent name="C:\Users\Desktop\2015_Internship\OpenXC\openxc-android\mhacks6demo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.openxc.measurements.tires" />
+      <recent name="com.openxc.measurements.cluster" />
+      <recent name="com.openxc.measurements.diagnostic" />
       <recent name="com.openxc.units" />
-      <recent name="com.openxc.measurements" />
+      <recent name="com.openxc.measurements.infotainment" />
+      <recent name="com.openxc.measurements.tires" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.mhacks6demo">
@@ -3746,11 +3963,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49614397" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.48457584" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.48457584" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
@@ -3758,24 +3975,24 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49485862" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.48714653" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.48714653" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39444444" sideWeight="0.48971722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39342105" sideWeight="0.48971722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5154242" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24742931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.49485862" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3821,76 +4038,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Android studio" />
     <MESSAGE value="Started Chrysler MHacks Demo project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Chrysler MHacks Demo project" />
+    <MESSAGE value="Added additional signals - total up to 38 signals. 27 verified, 6 unverified, 5 not working. Began provisions for Touch control via the car" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added additional signals - total up to 38 signals. 27 verified, 6 unverified, 5 not working. Began provisions for Touch control via the car" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.94285715">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.name">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc-android.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44835165">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2791209">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-156.90845">
@@ -3916,7 +4071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14739884">
           <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3945,14 +4099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.117052">
           <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/TireStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -3981,15 +4127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12283237">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22109826">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4018,7 +4155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17196532">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4075,21 +4211,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12283237">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HighBeamStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HeadlampStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17196532">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
@@ -4098,7 +4225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4106,7 +4232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4114,7 +4239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39480874">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4122,7 +4246,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18579236">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4130,10 +4253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1625683">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4141,7 +4260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11612022">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4149,7 +4267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3715847">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4157,7 +4274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4165,7 +4281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09289618">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4173,7 +4288,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18579236">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/TireStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1625683">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/lighting/HeadlampStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1625683">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Volume.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2554645">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/infotainment/Seek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3715847">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/tires/TireFLStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46448088">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/wrappers/SwitchState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14739884">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/OutsideAirTemp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31936416">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/units/MetersPerSecondSquared.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2947977">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#262#263#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31936416">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#447#471#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/diagnostic/VehicleAccelerationY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31936416">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#708#709#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77890176">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14739884">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="e#303#304#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4182,32 +4400,32 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73399717">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.84615386">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/UserInterface.java">
+    <entry file="file://$PROJECT_DIR$/openxc/src/com/openxc/measurements/cluster/BrakeFluidLow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.510929">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.31936416">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/VehicleConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.465847">
-          <caret line="116" column="81" selection-start-line="116" selection-start-column="81" selection-end-line="116" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mhacks6demo/src/com/chrysler/mhacks6demo/CarDataPacket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39617488">
-          <caret line="716" column="34" selection-start-line="716" selection-start-column="34" selection-end-line="716" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.5534682">
+          <caret line="577" column="34" selection-start-line="577" selection-start-column="34" selection-end-line="577" selection-end-column="34" />
           <folding />
         </state>
       </provider>
