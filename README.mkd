@@ -19,7 +19,19 @@ instructions](http://openxcplatform.com/getting-started/library-installation.htm
 [usage details](http://openxcplatform.com/android/api-guide.html) and the
 [source code documentation](http://android.openxcplatform.com).
 
-## Building from Eclipse
+## Building from Android Studio
+After cloning the `openxc-android` repository to your local disk, open Android Studio
+and go to `File -> New -> Other -> Android -> Android Project from Existing
+Source`. Browse to the `openxc-android` folder and it should detect the 3
+Android projects within the repository. It should detect the following modules:
+
+    enabler - Enabler app required to connect and run OpenXC applications
+    openxc - library for utilizing openxc software in any applications
+    mhacks6demo - base app that users can modify for their hacks
+        * Contains implementation to port the android screen over to a Chrysler vehicle
+        * Provides an easy API to gain access to Chrysler CAN signals
+
+## Building from Eclipse (Deprecated)
 
 After cloning the `openxc-android` repository to your local disk, open Eclipse
 and go to `File -> New -> Other -> Android -> Android Project from Existing
